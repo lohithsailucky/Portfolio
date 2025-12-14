@@ -6,61 +6,97 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <a href = "  "><button>About</button></a>
-    <a href = "  "><button>Skills</button></a>
-    <a href = "  "><button>Projects</button></a>
-    <a href = "  "><button>Contact</button></a>
+    <header>
+        <a href = "  "><button>About</button></a>
+        <a href = "  "><button>Skills</button></a>
+        <a href = "  "><button>Projects</button></a>
+        <a href = "  "><button>Contact</button></a>
 
-    <h1>Lohith Lucky</h1>
+    </header>
+    
+    <main>
 
-    <p>I am a passionate on web devoloper</p>
+        <section id="About">
+            <h1>Lohith Lucky</h1>
 
-    <p>I am currently pursuing my B.Tech in <em>SV COLLEGE OF ENGINEERING</em> <b>TIRUPATI</b></p>
+            <p>I am a passionate on web devoloper</p>
 
-    <P>You can <b>Click here</b>to checkout What I have learnt in HTML,CSS,JAVA SCRIPT</P>
+            <p>I am currently pursuing my B.Tech in <em>SV COLLEGE OF ENGINEERING</em> <b>TIRUPATI</b></p>
 
-    <h1>My Skills</h1>
+            <P>You can <b>Click here</b>to checkout What I have learnt in HTML,CSS,JAVA SCRIPT</P>
 
-    <ol>
-        <li>Python Basics
-        </li>
-        <li>HTML Basics</li>
-        <li>CSS Basics</li>
-        <li>JS Basics</li>
-    </ol>
+        </section>
+        <section id="Skills">
+          <h1>My Skills</h1>
+
+            <ol>
+                <li>Python Basics</li>
+                <li>HTML Basics</li>
+                <li>CSS Basics</li>
+                <li>JS Basics</li>
+             </ol>
     
 
-    <h1>Contact Me</h1>
-    <p>Feel free to contact me</p>
+        </section>
+        <section id="Projects">
+            <h1>My Projects</h1>
 
+            <table border="1">
+                <tr>
+                    <th>Projects</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>portfolio</td>
+                    <td>I Have Built a Portfolio website by using HTML, CSS & JAVASCRIPT</td>
+                </tr>
+                <tr>
+                    <td>Python simple calculator</td>
+                    <td>I Have Built a simple calculator by using Python</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Contact">
+            <h1>Contact Me</h1>
+            <p>Feel free to contact me</p>
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email">
+                <br>
+                <b>Gender</b>
+                <input type="radio" id="male" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" value="Female">
+                <label for="female">Female</label>
+                <br>
+                <b>Select Your Interest</b>
+                <input type="checkbox" id="coding" value="coding">
+                <label for="coding">coding</label>
+                <input type="checkbox" id="reading" value="reading">
+                <label for="reading">reading</label>
+                <br>
+                <label for="bio">Bio ( upto 200 characters: ) </label>
+                <input type="text">
+                <br>
+                <button type="submit">Submit</button>
 
+            </form>
+        </section>
+    </main>
 
+    <footer>
+        <p>@Portfolio</p>
+    </footer>
 
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text">
-        <br>
-        <label for="email">Email:</label>
-        <input type="email">
-        <br>
-        <b>Gender</b>
-        <input type="radio" id="male" value="Male">
-        <label for="male">Male</label>
-        <input type="radio" id="female" value="Female">
-        <label for="female">Female</label>
-        <br>
-        <b>Select Your Interest</b>
-        <input type="checkbox" id="coding" value="coding">
-        <label for="coding">coding</label>
-        <input type="checkbox" id="reading" value="reading">
-        <label for="reading">reading</label>
-        <br>
-        <label for="bio">Bio ( upto 200 characters: ) </label>
-        <input type="text">
-        <br>
-        <button type="submit">Submit</button>
+    
 
-    </form>
+   
+
+    
+       
     
 </body>
 </html>
